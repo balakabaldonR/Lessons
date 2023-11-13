@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <input type="text" placeholder="Плейсхолдер" />
+      <input type="text" value="Value" />
+      <input type="text" placeholder="Disabled" disabled />
+      <input type="password" value="444444" />
+      <textarea
+        name=""
+        id=""
+        cols=""
+        rows="2"
+        placeholder="Введите текст"
+      ></textarea>
+      <input type="button" value="Кнопка через тег input" />
+      <button>Кнопка через тег button</button>
+      <div class="placeholder">
+        <input type="text" placeholder="Плейсхолдер" id="placeholder" />
+        <label for="placeholder"
+          >Это метка для инпута - нажмите на меня - и инпут получит фокус</label
+        >
+      </div>
+      <button type="submit">Отправка на сервер</button>
+      <p>
+        <div class="checkbox-form">
+        <input type="checkbox" />
+        <div class="checkbox">
+            Эта метка для чекбокса, нажмите на меня - чекбокс сменит галочку!
+        </div>
+        </div>
+      </p>
+      <p>
+        <div class="checkbox-form">
+          <input type="checkbox" checked />
+          <div class="checkbox">
+              Я отмечен по умолчанию
+          </div>
+        </div>
+      </p>
+      <p>
+        <div class="checkbox-form">
+          <input type="checkbox" disabled checked />
+          <div class="checkbox">
+              Я disabled
+          </div>
+        </div>
+      </p>
+      <div class="form">
+        <label for="">Это группа радиокнопок - только одна из них может быть отмечена</label>
+        <p>
+          <div class="radio-form">
+            <input type="radio" value="radio2" name="1"/>
+            <div class="radio">
+                Это метка для радио
+            </div>
+          </div>
+        </p>
+        <p>
+          <div class="radio-form">
+            <input type="radio" checked value="radio2" name="1"/>
+            <div class="radio">
+                Это метка для радио
+            </div>
+          </div>
+        </p>
+      </div>
+      <button style = "width: 100px;"type="submit">Отправка на сервер</button>
+    </form>
+  </body>
+</html>

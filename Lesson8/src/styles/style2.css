@@ -1,0 +1,227 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  width: 1400px;
+  height: 38px;
+  background-color: #313131;
+  display: flex;
+  margin-bottom: 58px;
+}
+.header {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-home {
+  width: 54px;
+  height: 16px;
+  padding-top: 10px;
+  margin-left: 140px;
+  margin-right: 30px;
+}
+.header-about {
+  width: 37px;
+  height: 16px;
+  padding-top: 10px;
+  margin-right: 30px;
+}
+.header-contacts {
+  width: 65px;
+  height: 16px;
+  padding-top: 10px;
+}
+.header-phone {
+  display: flex;
+  width: 139px;
+  height: 17px;
+  padding-top: 10px;
+  margin-left: 652px;
+  margin-right: 30px;
+}
+.header-phone__img {
+  margin-right: 11px;
+}
+.header-deliverye__img {
+  margin-right: 10px;
+}
+.header-delivery {
+  display: flex;
+  width: 103px;
+  height: 17.37px;
+  padding-top: 10px;
+}
+/* ---- */
+
+/*SEARCH*/
+
+.search {
+  display: flex;
+  width: 1138.87px;
+  height: 50px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+.search__logo {
+  padding-top: 12px;
+  margin-right: 38.04px;
+}
+.search__form {
+  width: 839px;
+  height: 50px;
+  display: flex;
+  border: 1px solid rgba(230, 230, 230, 1);
+  margin-right: 37px;
+}
+.search__form_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49px;
+  height: 100%;
+}
+.search__form_input {
+  border: none;
+  outline: none;
+  width: 790px;
+}
+::placeholder {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #414141;
+}
+.search__links {
+  display: flex;
+  width: 111.87px;
+  height: 18px;
+  padding-top: 16px;
+}
+.search__links_wishlist {
+  margin-right: 30.17px;
+}
+.search__links_bag {
+  margin-right: 30px;
+}
+/* ---- */
+
+/* MENU */
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  height: 70px;
+  margin-left: 140px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+}
+.menu__img {
+  margin-right: 10px;
+}
+.menu__text {
+  color: rgba(65, 65, 65, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.menu__kitchen {
+  display: flex;
+  width: 77px;
+  height: 23px;
+  margin-right: 50px;
+  margin-left: 40px;
+}
+.menu__bedroom {
+  display: flex;
+  width: 103px;
+  height: 22.22px;
+  margin-right: 50px;
+}
+.menu__livingroom {
+  display: flex;
+  width: 122px;
+  height: 22.03px;
+  margin-right: 50px;
+}
+.menu__closet {
+  display: flex;
+  width: 108.96px;
+  height: 22px;
+  margin-right: 50px;
+}
+.menu__office {
+  display: flex;
+  width: 160px;
+  height: 22px;
+  margin-right: 50px;
+}
+.menu__childrenroom {
+  display: flex;
+  width: 94px;
+  height: 22px;
+  margin-right: 50.04px;
+}
+.menu__discount {
+  display: flex;
+  width: 47px;
+  height: 19px;
+  margin-right: 47px;
+}
+.menu__etc {
+  display: flex;
+  width: 1.27px;
+  height: 14px;
+}
+.menu__discount_text {
+  color: rgba(215, 68, 68, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* ---- */
+
+/* WIDGET */
+
+.widget {
+  width: 1140px;
+  height: 450px;
+  margin-left: 140px;
+  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.09);
+  background-image: url(../img/1785\ 1.png);
+}
+.widget__button {
+  margin-left: 25px;
+  margin-top: 210px;
+  width: 30px;
+  height: 30px;
+  background: rgba(157, 157, 157, 0.28);
+  border: none;
+  padding-top: 5px;
+  padding-right: 8px;
+}
